@@ -32,9 +32,6 @@ public class Boxrec {
             // need http protocol
             doc = Jsoup.connect("http://boxrec.com/boxer/" + boxrecId).get();
 
-            // get page title
-            String title = doc.title();
-
             // get boxer attributes
             Elements birthName = doc.select(".boxerTitle");
             Elements wins = doc.select(".bgwonBlock span");

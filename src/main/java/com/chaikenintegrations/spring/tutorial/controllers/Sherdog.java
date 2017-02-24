@@ -32,9 +32,6 @@ public class Sherdog {
             // need http protocol
             doc = Jsoup.connect("http://www.sherdog.com/fighter/" + sherdogId).get();
 
-            // get page title
-            String title = doc.title();
-
             // get fighter attributes
             Elements birthName = doc.select(".fn");
             Elements wins = doc.select("body > div.container > div:nth-child(3) > div.col_left > section:nth-child(2) > div > div.content > div:nth-child(1) > div > div.record > div > div.left_side > div:nth-child(1) > span.card > span.counter");

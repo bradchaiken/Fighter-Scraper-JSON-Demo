@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class BoxrecController {
 
     private static final String template = "Hello, %s!";
-    private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/boxrec")
     public Boxrec boxrec(
