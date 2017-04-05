@@ -1,3 +1,9 @@
+//curl --request POST \
+//        --url 'http://localhost:8080/boxrec?name=Your-Name&boxrecId=1437' \
+//        --header 'authorization: Basic VVNqdkRpOFVCaWJRQjVHUmROQmZaNzcxOmEzNDEwZDg3LWE4ZmUtNDdhYS04ZGY4LTg5NGM0ODIyN2RmMw==' \
+//        --header 'cache-control: no-cache' \
+//        --header 'postman-token: dba27cb8-245d-5f5d-6516-2cdbc8ad0557'
+
 package com.chaikenintegrations.spring.tutorial.controllers;
 
 import java.util.concurrent.atomic.AtomicLong;

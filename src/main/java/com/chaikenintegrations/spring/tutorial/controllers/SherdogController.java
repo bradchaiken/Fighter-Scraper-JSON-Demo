@@ -1,3 +1,9 @@
+//curl --request POST \
+//        --url 'http://localhost:8080/sherdog?name=Your-Name&sherdogId=1437' \
+//        --header 'authorization: Basic VVNqdkRpOFVCaWJRQjVHUmROQmZaNzcxOmEzNDEwZDg3LWE4ZmUtNDdhYS04ZGY4LTg5NGM0ODIyN2RmMw==' \
+//        --header 'cache-control: no-cache' \
+//        --header 'postman-token: bab70542-fd6a-7eef-f58c-375f5a1f9b48'
+
 package com.chaikenintegrations.spring.tutorial.controllers;
 
 import java.util.concurrent.atomic.AtomicLong;
